@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .inputclass{
+            width: 1000px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <title>도배 추가</title>
+</head>
+<body>
+<h1>도배 추가</h1>
+<br>
+<form method="post" action="/process/addpaper">
+    <table>
+        <tr>
+            <td><label>이름</label></td>
+            <td><input class="inputclass" type="text" name="keyname"></td>
+        </tr>
+        <tr>
+            <td><label>회사</label></td>
+            <td><input class="inputclass" type="text" name="company"></td>
+        </tr>
+        <tr>
+            <td><label>색깔</label></td>
+            <td><input class="inputclass" type="text" name="color"></td>
+        </tr>
+        <tr>
+            <td><label>벽지종류</label></td>
+            <td><input class="inputclass" type="text" name="kind"></td>
+        </tr>
+        <tr>
+            <td><label>제품번호</label></td>
+            <td><input class="inputclass" type="text" name="key"></td>
+        </tr>
+        <tr>
+            <td><label>이미지 주소</label></td>
+            <td><input class="inputclass" type="text" name="image"></td>
+        </tr>
+    </table>
+    <input type="submit" value="전송">
+</form>
+</body>
+</html>
